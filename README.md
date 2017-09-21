@@ -1,6 +1,7 @@
 # go-kube-tail
 
-Mostly me learning go for something I would actually use. i
+Mostly me learning go for something I would actually use.
+
 My goal is to make use of a google cloud logging export (pubsub), to get a fast local tail from a kube (gke) cluster. 
 
 First you want to create a log export to pubsub, and make note of the topic. It is assumed you know how to navigate your way around gcloud sdk and set your default credentials. 
